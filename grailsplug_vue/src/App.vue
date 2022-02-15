@@ -19,8 +19,8 @@
             </div>
             <div class="navbar-item">
                 <div class="buttons">
-                    <router-link to="/LogIn" class="button is-light"><strong>Log in</strong></router-link>
-                    <router-link to="/Cart" class="button is-success">
+                    <router-link to="/LogIn" class="button"><strong>Log in</strong></router-link>
+                    <router-link to="/Cart" class="button">
                         <span class="icon">
                             <i class="fas fa-shopping-cart"></i>
                         </span>
