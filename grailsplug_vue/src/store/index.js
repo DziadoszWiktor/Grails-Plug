@@ -34,10 +34,10 @@ export default createStore({
       }
 
       localStorage.setItem('cart', JSON.stringify(state.cart))
-    },/*
+    },
     setIsLoading(state, status) {
       state.isLoading = status
-    },
+    },/*
     setToken(state, token) {
         state.token = token
         state.isAuthenticated = true
