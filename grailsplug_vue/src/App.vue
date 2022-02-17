@@ -11,6 +11,24 @@
             </a>
         </div>
         <div class="navbar-menu" id="navbar-menu" v-bind:class="{'is-active':showMobilemMenu }">
+            <div class="navbar-start">
+              <div class="navbar-item">
+                <form method="get" action="/search">
+                  <div class="field has-addons">
+                    <div class="control">
+                      <input type="text" class="input" placeholder="What are you looking for?" name="query">
+                    </div>
+                    <div class="control">
+                      <button class="button">
+                        <span class="icon">
+                          <i class="fas fa-search"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
             <div class="navbar-end">
                 <router-link to="/Summer" class="navbar-item" style="color:black;"><strong>Summer</strong></router-link>
                 <router-link to="/Winter" class="navbar-item" style="color:black;"><strong>Winter</strong></router-link>
