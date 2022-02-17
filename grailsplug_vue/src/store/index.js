@@ -2,10 +2,10 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    cart:{
-      items:[],
+    cart: {
+        items: [],
     },
-    isAutheticated:false,
+    isAuthenticated: false,
     token: '',
     isLoading: false
   },
@@ -37,7 +37,7 @@ export default createStore({
     },
     setIsLoading(state, status) {
       state.isLoading = status
-    },/*
+    },
     setToken(state, token) {
         state.token = token
         state.isAuthenticated = true
@@ -50,7 +50,7 @@ export default createStore({
       state.cart = { items: [] }
 
       localStorage.setItem('cart', JSON.stringify(state.cart))
-    }*/
+    },
   },
   actions: {
   },
