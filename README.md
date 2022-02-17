@@ -1,6 +1,11 @@
 # **Grails-Plug**
-Django e-commerce site </br>
-* Admin credentials:</br>
-    * wik
-    * ...
-## **1.** Products app
+### **Sneakers e-commerce shop**
+An online sneakers store realized with Django and Vue with cart and login functionalities
+* ## **Django**
+    ...
+* ## **Vue**
+    ...
+</br>
+
+[Link for Tutorial](https://youtu.be/Yg5zkd9nm6w)
+    
